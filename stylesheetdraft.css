@@ -209,7 +209,7 @@ h3.notion-heading {
 
 .notion-collection-list__item-property .notion-property__select {
     text-transform: uppercase !important;
-    font-size: 12px !important;
+    font-size: 16px !important;
     letter-spacing: 2px !important;
     font-weight: 700 !important;
 }
@@ -763,4 +763,17 @@ a.notion-link.link {
     border-radius: var(--border-radius) !important;
     transition: background .2s ease !important;
     margin: 5px 0px !important;
+}
+
+.notion-collection-card__content .notion-property__text, .notion-collection-list__item-content .notion-property__text {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 16px;
+    padding: 4px;
+}
+
+.notion-collection-card__content {
+    font-size: 16px;
+    padding-bottom: 16px;
+    padding-left: 20px;
 }
