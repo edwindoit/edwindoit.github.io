@@ -777,3 +777,8 @@ a.notion-link.link {
     padding-bottom: 16px;
     padding-left: 20px;
 }
+
+.notion-collection-card .notion-property__title {
+    padding: 12px !important; 
+    font-size: 1.2rem !important;
+}
