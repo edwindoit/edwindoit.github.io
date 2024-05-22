@@ -1,0 +1,343 @@
+:root {
+    --media-sm: 480px;
+    --media-md: 768px;
+    --media-lg: 1000px;
+}
+
+/* General styles */
+
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: #0070f3;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    min-height: 100vh;
+    min-width: 320px; /* Minimum width for mobile viewport */
+    overflow-x: hidden; /* Prevent horizontal scroll */
+}
+
+blockquote {
+    border-left: 5px solid #0070f3;
+    padding: 15px;
+    margin: 20px 0;
+    background-color: #eef6ff;
+    border-radius: 5px;
+    font-style: italic;
+    color: #333;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9;
+}
+
+th, td {
+    border: 1px solid #e0e0e0;
+    padding: 12px 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #0070f3;
+    color: #ffffff;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+tr:hover {
+    background-color: #e0e0e0;
+}
+
+/* Sidebar styles */
+.sidebar {
+    width: 250px;
+    background-color: #fff;
+    border-right: 1px solid #eaeaea;
+    padding: 1rem;
+    padding-top: 4rem;
+    box-sizing: border-box;
+    position: fixed;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+    z-index: 100;
+}
+
+.sidebar.open {
+    transform: translateX(0);
+}
+
+.logo a {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.menu-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    border-radius: 5px;
+    color: #333;
+    text-decoration: none;
+    transition: background-color 0.3s, border-color 0.3s;
+    position: relative; /* To position the external link icon */
+}
+
+.menu-item:hover {
+    background-color: #f0f0f0;
+    border-color: #0070f3;
+}
+
+.menu-icon {
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 1.2em; /* Adjust size as needed */
+}
+
+.external-link-icon {
+    position: absolute;
+    right: 20px; /* Adjust to align with padding */
+    font-size: 1.2em; /* Adjust size as needed */
+    color: #0070f3;
+}
+
+.menu {
+    margin-top: 2rem;
+}
+
+.menu a {
+    display: block;
+    padding: 0.5rem 0;
+    font-size: 0.7rem;
+    color: #333;
+}
+
+.menu a:hover {
+    color: #0070f3;
+}
+
+.menu-divider {
+    margin: 1rem 0;
+    padding: 0.5rem 0;
+    font-size: 0.875rem;
+    color: #888;
+}
+
+.menu-item.active {
+    background-color: #0070f3;
+    color: #fff;
+    border-color: #0070f3;
+}
+
+.menu-item.active .menu-icon,
+.menu-item.active .external-link-icon {
+    color: #fff;
+}
+
+
+/* Writing sidebar styles */
+.writing-sidebar {
+    width: 250px; /* Adjust based on your design */
+    background-color: #f4f4f4;
+    padding: 20px;
+    padding-top: 64px;
+    overflow-y: auto; /* Allows scrolling */
+    height: 100vh; /* Full-height sidebar */
+    position: fixed;
+    left: 250px; /* Adjust based on your main sidebar width */
+    transition: transform 0.3s ease;
+}
+
+.writing-sidebar.hidden {
+    display: none; /* Hide the sidebar */
+}
+
+.writing-sidebar a {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.writing-sidebar a:hover {
+    text-decoration: underline;
+}
+
+
+/* Writing sidebar entries */
+
+
+
+/* Add these styles to main.css */
+
+.entry-wrapper {
+    display: block;
+    margin-bottom: 15px; /* Space between entries */
+    padding: 10px; /* Padding for clickable area */
+    text-decoration: none;
+    color: #333;
+    background-color: #fff; /* Background color for the entry */
+    border: 1px solid #eaeaea; /* Border around the entry */
+    border-radius: 4px; /* Rounded corners for the entry */
+    transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.entry-wrapper:hover {
+    background-color: #f0f0f0; /* Light grey background on hover */
+    border-color: #0070f3; /* Border color on hover */
+}
+
+.entry-title {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.entry-date {
+    margin-top: 5px; /* Space between title and date */
+    color: #888; /* Different color for date */
+    font-size: 0.7rem; /* Smaller font size for date */
+}
+/* Active state for entry */
+.entry-wrapper.active {
+    background-color: #e0e0e0; /* Light grey background for active entry */
+    border-color: #0070f3; /* Border color for active entry */
+    color: #0070f3; /* Text color for active entry */
+}
+
+/* Main content styles */
+.content {
+    flex: 1;
+    padding: 16px; /* Consistent padding */
+    box-sizing: border-box;
+    background-color: #fff;
+    border-left: 1px solid #eaeaea;
+    max-width: 700px;
+    overflow-x: hidden; /* Prevent horizontal scroll */
+    z-index: 1; /* Ensure the main content is on top */
+    overflow-x: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Menu toggle button */
+.menu-toggle {
+    display: block; /* Visible on smaller screens */
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+
+@media screen and (min-width: 480px) {
+    .sidebar {
+        transform: translateX(0);
+    }
+
+    .menu-toggle {
+        display: none; /* Hide the menu toggle button */
+    }
+
+    .content {
+        padding: 40px;
+        margin-left: 250px; /* Width of regular sidebar */
+    }    
+}
+
+@media screen and (min-width: 960px) {
+    .content {
+        margin-left: 540px; /* Width of writing sidebar + regular sidebar + 40 px somehow? */
+    }
+}
+
+
+
+
+
+
+
+
+/* Media query targeting only the writing page for the behavior */
+@media screen and (max-width: 960px) {
+    #writing-page * {
+        box-sizing: border-box; /* Apply box-sizing only within the writing page and media query */
+    }
+
+    #writing-page .writing-sidebar {
+        width: 100%; /* Full width on mobile */
+        left: 0; /* Position it at the left edge */
+        padding: 20px; /* Adjust padding as needed */
+        padding-top: 64px;
+    }
+
+    #writing-page .content {
+        display: none; /* Hide content initially */
+    }
+
+    #writing-page .writing-sidebar .entry-wrapper {
+        width: 100%; /* Ensure entry wrappers are full width */
+    }
+    
+    #writing-page .sidebar {
+        transform: translateX(-100%); /* Keep the sidebar collapsed */
+        transition: transform 0.3s ease; /* Add transition for smooth toggling */
+    }
+
+    #writing-page .sidebar.open {
+        transform: translateX(0); /* Reveal the sidebar when open class is added */
+    }
+
+    #writing-page .menu-toggle {
+        display: block; /* Ensure the hamburger icon is visible */
+    }
+   
+    #writing-page.show-content .writing-sidebar {
+        display: none; /* Hide sidebar when content is shown */
+    }
+    
+    #writing-page.show-content .content {
+        display: block; /* Show content when an entry is clicked */
+        width: 100%; /* Full width for the content */
+        padding: 16px; /* Consistent padding */
+        box-sizing: border-box;
+        max-width: none; /* Remove max width */
+    }
+    
+}
