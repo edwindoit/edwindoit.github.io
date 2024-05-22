@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const entries = [
         { title: "First Writing Entry", file: "entry1.md", date: "2024-01-01", id: "firstwritingentry" },
-        { title: "Second Writing Entry", file: "entry2.md", date: "2024-01-15", id: "secondwritingentry" },
-        { title: "Third Writing Entry", file: "entry3.md", date: "2024-01-30", id: "thirdwritingentry" }
+        { title: "Introduction", file: "entry2.md", date: "2022-12-10", id: "secondwritingentry" },
+        { title: "The KEE system", file: "entry3.md", date: "2022-10-10", id: "thirdwritingentry" }
     ];
 
     const sidebar = document.getElementById('sidebar');
