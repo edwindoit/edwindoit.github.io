@@ -1,8 +1,15 @@
 document.addEventListener('DOMContentLoaded', () => {
     const entries = [
         { title: "First Writing Entry", file: "entry1.md", date: "2024-01-01", id: "firstwritingentry" },
-        { title: "Introduction", file: "entry2.md", date: "2022-12-10", id: "secondwritingentry" },
-        { title: "The KEE system", file: "entry3.md", date: "2022-10-10", id: "thirdwritingentry" }
+        { title: "How to introduce", file: "Introduction.md", date: "12-10-2022", id: "Introduction" },
+        { title: "The KEE system", file: "KEEsystem.md", date: "10-11-2022", id: "Keesystem" },
+        { title: "Read better", file: "Bettereader.md", date: "11-13-2022", id: "Betterreader" },
+        { title: "Killer apps 2022", file: "Killerapps2022.md", date: "03-09-2022", id: "Killerapps2022" },
+        { title: "Killer apps 2024", file: "Killerapps2024.md", date: "27-03-2024", id: "Killerapps2024" },
+        { title: "Goalsetting is hard", file: "Goalsettinghard.md", date: "10-11-2022", id: "Goalsettinghard.md" },
+        { title: "Problem solving", file: "Problemsolving.md", date: "27-05-2023", id: "Problemsolving" },
+        { title: "Quick decisions", file: "Quickcall.md", date: "29-10-2023", id: "Quickcall" },
+        { title: "Read it later", file: "Readitlater.md", date: "25-09-2022", id: "Readitlater" }
     ];
 
     const sidebar = document.getElementById('sidebar');

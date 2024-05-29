@@ -1,6 +1,8 @@
 # Thoughts on the art of introduction
 
-When attempting to condense information, we tend to **summarize** and make it more abstract. Intuitively this seems like it would communicate more because it covers more, but in fact, it **says less***.*
+2022-12-10 <br> 1 minute read
+
+When attempting to condense information, we tend to **summarize** and make it more abstract. Intuitively this seems like it would communicate more because it covers more, but in fact, it **says less**.
 
 “I aim to spread knowledge” might sound like a good way to condense: “I broadcast free online lectures on computer science on Youtube and Skillshare,” but it’s not. You turned something concrete and understandable into something vague.
 
