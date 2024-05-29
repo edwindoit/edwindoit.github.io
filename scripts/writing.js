@@ -3,7 +3,7 @@ document.addEventListener('DOMContentLoaded', () => {
         { title: "First Writing Entry", file: "entry1.md", date: "2024-01-01", id: "firstwritingentry" },
         { title: "How to introduce", file: "Introduction.md", date: "12-10-2022", id: "Introduction" },
         { title: "The KEE system", file: "KEEsystem.md", date: "10-11-2022", id: "Keesystem" },
-        { title: "Read better", file: "Bettereader.md", date: "11-13-2022", id: "Betterreader" },
+        { title: "Read better", file: "Betterreader.md", date: "11-13-2022", id: "Betterreader" },
         { title: "Killer apps 2022", file: "Killerapps2022.md", date: "03-09-2022", id: "Killerapps2022" },
         { title: "Killer apps 2024", file: "Killerapps2024.md", date: "27-03-2024", id: "Killerapps2024" },
         { title: "Goalsetting is hard", file: "Goalsettinghard.md", date: "10-11-2022", id: "Goalsettinghard.md" },
