@@ -120,3 +120,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 });
+
+function handleResize() {
+    // No-op function to prevent errors
+}
