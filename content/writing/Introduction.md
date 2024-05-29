@@ -1,6 +1,6 @@
 # Thoughts on the art of introduction
 
-2022-12-10 <br> 1 minute read
+2022-12-10 <br> 1 min read
 
 When attempting to condense information, we tend to **summarize** and make it more abstract. Intuitively this seems like it would communicate more because it covers more, but in fact, it **says less**.
 
