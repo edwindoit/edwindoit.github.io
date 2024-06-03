@@ -4,7 +4,9 @@
     --media-lg: 1000px;
 }
 
+
 /* General styles */
+
 
 
 body {
@@ -12,15 +14,40 @@ body {
     line-height: 150%;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background: url('../images/Vector.svg');
+    background-size: cover; /* Adjust as needed */
+    background-repeat: repeat; /* Adjust as needed */
+    background-attachment: fixed; /* Optional */    
+    background-color: #f5f5f5;
     color: #333;
 }
 
+
 a {
-    color: #343139;
+    outline-color: transparent;
     text-decoration: none;
-		border-bottom: .15em solid #0070f3;
-}
+    padding: 2px 1px 0;
+  }
+  
+  a:link {
+    color: #0070f3;
+  }
+  
+  a:visited {
+    color: #0070f3;
+  }
+  
+  a:focus,
+  a:hover {
+    border-bottom: 1.5px solid;
+  }
+  
+  
+
+
+
+
+
 .container {
     display: flex;
     flex-direction: row;
@@ -70,9 +97,9 @@ tr:hover {
 /* Sidebar styles */
 .sidebar {
     width: 250px;
-    background-color: #fff;
+    background-color: #FAFAFA;
     border-right: 1px solid #eaeaea;
-    padding: 1rem;
+    padding: 1.5rem;
     padding-top: 4rem;
     box-sizing: border-box;
     position: fixed;
@@ -88,36 +115,56 @@ tr:hover {
     transform: translateX(0);
 }
 
+
+
 .logo a {
     font-size: 1.5rem;
     font-weight: bold;
     color: #333;
 }
 
+.logo a:hover {
+    border-bottom: none; /* Prevent underline on hover */
+}
+
+
+.logo-img {
+    width: 70px;
+    height: 70px;
+}
+
 .menu-item {
+    font-family: Inconsolata, monospace;
     display: flex;
-    align-items: center;
+    align-items: center; /* Vertically align items */
     justify-content: space-between;
     margin-bottom: 10px;
-    background-color: #fff;
-    border: 1px solid #eaeaea;
-    border-radius: 5px;
     color: #333;
     text-decoration: none;
     transition: background-color 0.3s, border-color 0.3s;
     position: relative; /* To position the external link icon */
+    border: 1px solid #eaeaea00;
+    border-radius: 4px;
+    background-color: #FAFAFA;
 }
-
 .menu-item:hover {
-    background-color: #f0f0f0;
+    border: 1px solid #eaeaea;
+    border-radius: 4px;
+    background-color: #FAFAFA;
     border-color: #0070f3;
 }
 
 .menu-icon {
+    width: 12px; /* Set the desired width */
+    height: 12px; /* Set the desired height */
     margin-right: 10px;
     margin-left: 10px;
-    font-size: 1.2em; /* Adjust size as needed */
+    margin-bottom: 3px;
+    display: inline-block;
+    vertical-align: middle; /* Ensure vertical alignment */
+    
 }
+
 
 .external-link-icon {
     position: absolute;
@@ -133,7 +180,7 @@ tr:hover {
 .menu a {
     display: block;
     padding: 0.5rem 0;
-    font-size: 0.7rem;
+    font-size: 14px;
     color: #333;
 }
 
@@ -149,15 +196,11 @@ tr:hover {
 }
 
 .menu-item.active {
-    background-color: #0070f3;
-    color: #fff;
-    border-color: #0070f3;
+    color: #0070f3;
+    font-weight: bolder;
 }
 
-.menu-item.active .menu-icon,
-.menu-item.active .external-link-icon {
-    color: #fff;
-}
+
 
 
 /* Writing sidebar styles */
@@ -200,14 +243,14 @@ tr:hover {
     padding: 10px; /* Padding for clickable area */
     text-decoration: none;
     color: #333;
-    background-color: #fff; /* Background color for the entry */
+    background-color: #FAFAFA; /* Background color for the entry */
     border: 1px solid #eaeaea; /* Border around the entry */
     border-radius: 4px; /* Rounded corners for the entry */
     transition: background-color 0.3s, border-color 0.3s; /* Smooth transition for hover effect */
 }
 
 .entry-wrapper:hover {
-    background-color: #f0f0f0; /* Light grey background on hover */
+    background-color: #FAFAFA; /* Light grey background on hover */
     border-color: #0070f3; /* Border color on hover */
 }
 
@@ -233,7 +276,7 @@ tr:hover {
     flex: 1;
     padding: 16px; /* Consistent padding */
     box-sizing: border-box;
-    background-color: #fff;
+    background-color: #FAFAFA;
     border-left: 1px solid #eaeaea;
     max-width: 700px;
     overflow-x: hidden; /* Prevent horizontal scroll */
