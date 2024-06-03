@@ -73,9 +73,7 @@ I seek to bridge the gap between complex theories and real-world applications by
 [Reddit](https://www.reddit.com/user/Practics1)
 
 **1:1**
-
 [e-mail me](mailto:me@edwindoit.com)
 
 **Blog**
-
 [Medium](https://medium.com/@edwindoit)
