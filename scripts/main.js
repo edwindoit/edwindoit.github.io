@@ -46,3 +46,22 @@ function setActiveMenuItem() {
         }
     });
 }
+
+
+document.addEventListener('DOMContentLoaded', function() {
+    var menuToggle = document.getElementById('menu-toggle');
+    var menuIcon = document.getElementById('menu-icon');
+    var menuOpen = true; // Track the state of the menu
+
+    menuToggle.addEventListener('click', function() {
+        // Toggle the menu state
+        menuOpen = !menuOpen;
+
+        // Update the SVG icon based on the menu state
+        if (menuOpen) {
+            menuIcon.src = 'images/Icons/Menuopen.svg'; // Path to the open menu icon
+        } else {
+            menuIcon.src = 'images/Icons/Menuclose.svg'; // Path to the close menu icon
+        }
+    });
+});

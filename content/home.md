@@ -17,7 +17,7 @@
 
 Every month, I share an actionable rundown of what I'm working on and the great resources I come across. It covers effectiveness, health, productivity, technology, and reasoning. 
 
-<iframe src="https://edwindoit.substack.com/embed" width="480" height="150" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
+<iframe src="https://edwindoit.substack.com/embed" width="100%" height="150" style="border:1px solid #EEE; background:white;" frameborder="0" scrolling="no"></iframe>
 
 
 

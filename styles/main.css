@@ -30,11 +30,11 @@ a {
   }
   
   a:link {
-    color: #0070f3;
+    color: #0249FF;
   }
   
   a:visited {
-    color: #0070f3;
+    color: #0249FF;
   }
   
   a:focus,
@@ -67,32 +67,47 @@ blockquote {
 }
 
 
+
 table {
     width: 100%;
-    border-collapse: collapse;
+    border-collapse: separate;
+    border-spacing: 0;
+    border: 2px solid #111111; /* Apply a thicker border for a clearer outline */
+    border-radius: 4px;
+    overflow: hidden; /* Ensures the border-radius is applied */
     margin: 20px 0;
-    font-family: Arial, sans-serif;
-    background-color: #f9f9f9;
+    background-color: #FAFAFA;
+    box-shadow: 4px 4px 0 #111111;
 }
 
 th, td {
-    border: 1px solid #e0e0e0;
+    border-right: 1px solid #CCCCCC; /* Add column separator */
     padding: 12px 15px;
     text-align: left;
 }
 
 th {
-    background-color: #0070f3;
-    color: #ffffff;
+    background-color: #111111;
+    color: #FAFAFA;
+    font-style: italic; /* Set the font to cursive */
 }
 
-tr:nth-child(even) {
-    background-color: #f2f2f2;
+td {
+    border-right: 1px solid #CCCCCC; /* Add column separator */
+    border-bottom: 1px solid #CCCCCC; /* Add row separator */
 }
 
-tr:hover {
-    background-color: #e0e0e0;
+td:last-child, th:last-child {
+    border-right: none; /* Remove separator from the last column */
 }
+
+
+tr:last-child {
+    border-bottom: none; /* Remove separator from the last row */
+}
+
+
+
 
 /* Sidebar styles */
 .sidebar {
@@ -106,6 +121,7 @@ tr:hover {
     left: 0;
     top: 0;
     bottom: 0;
+    overflow-y: auto; /* Allows scrolling */
     transition: transform 0.3s ease;
     transform: translateX(-100%);
     z-index: 100;
@@ -151,7 +167,7 @@ tr:hover {
     border: 1px solid #eaeaea;
     border-radius: 4px;
     background-color: #FAFAFA;
-    border-color: #0070f3;
+    border-color: #0249FF;
 }
 
 .menu-icon {
@@ -170,7 +186,7 @@ tr:hover {
     position: absolute;
     right: 20px; /* Adjust to align with padding */
     font-size: 1.2em; /* Adjust size as needed */
-    color: #0070f3;
+    color: #0249FF;
 }
 
 .menu {
@@ -185,7 +201,7 @@ tr:hover {
 }
 
 .menu a:hover {
-    color: #0070f3;
+    color: #0249FF;
 }
 
 .menu-divider {
@@ -196,7 +212,7 @@ tr:hover {
 }
 
 .menu-item.active {
-    color: #0070f3;
+    color: #0249FF;
     font-weight: bolder;
 }
 
@@ -251,7 +267,7 @@ tr:hover {
 
 .entry-wrapper:hover {
     background-color: #FAFAFA; /* Light grey background on hover */
-    border-color: #0070f3; /* Border color on hover */
+    border-color: #0249FF; /* Border color on hover */
 }
 
 .entry-title {
@@ -267,8 +283,8 @@ tr:hover {
 /* Active state for entry */
 .entry-wrapper.active {
     background-color: #e0e0e0; /* Light grey background for active entry */
-    border-color: #0070f3; /* Border color for active entry */
-    color: #0070f3; /* Text color for active entry */
+    border-color: #0249FF; /* Border color for active entry */
+    color: #0249FF; /* Text color for active entry */
 }
 
 /* Main content styles */
@@ -291,9 +307,10 @@ footer {
     color: #fff;
 }
 
-/* Menu toggle button */
+
+/*  
 .menu-toggle {
-    display: block; /* Visible on smaller screens */
+    display: block; /* Visible on smaller screens 
     position: fixed;
     top: 10px;
     left: 10px;
@@ -304,8 +321,8 @@ footer {
     font-size: 1.5rem;
     cursor: pointer;
     z-index: 1000;
-}
-
+} 
+*/
 
 @media screen and (min-width: 480px) {
     .sidebar {
@@ -381,4 +398,58 @@ footer {
         max-width: none; /* Remove max width */
     }
     
+}
+/* New styles for mobile view */
+@media screen and (max-width: 480px) {
+    .sidebar {
+        width: 100%; /* Full width */
+        left: 0; /* Align to the left */
+        text-align: center; /* Center the items */
+        padding-top: 1rem;
+    }
+
+    .menu-item {
+        display: block; /* Make each menu item a block-level element */
+        justify-content: center; /* Center the menu items */
+        text-align: center; /* Center the text */
+        margin: 0px 0; /* Adjust padding to reduce height */
+        border: none; /* Remove border on hover */
+        background-color: inherit; /* Keep background color consistent */
+    }
+    
+    .menu-item:hover {
+        border: none; /* Remove border on hover */
+        background-color: inherit; /* Remove background color change on hover */
+    }
+    
+    .menu-divider {
+        margin: 0.5 rem 0;
+        border-bottom: 1px solid #eaeaea; /* Add a border below each divider */
+        padding: 0.25rem 0;
+        font-size: 0.875rem;
+        color: #888;
+    }
+
+    .menu-toggle {
+        display: flex; /* Use flex to center content */
+        align-items: center; /* Center items vertically */
+        justify-content: center; /* Center items horizontally */
+        position: fixed;
+        bottom: 0; /* Position at the bottom */
+        left: 0;
+        width: 100%; /* Full width */
+        height: 60px; /* Adjust height as needed */
+        background-color: #FAFAFA; /* Background color */
+        padding: 0; /* Remove padding */
+        cursor: pointer; /* Pointer cursor */
+        z-index: 1000; /* Ensure it is on top */
+        border: none; /* Ensure no border */
+        border-top: solid 1px #eaeaea;  
+    }
+
+    .menu-toggle img {
+        width: 40px; /* Adjust image size as needed */
+        height: 40px;
+    } 
+
 }
