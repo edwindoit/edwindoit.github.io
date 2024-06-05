@@ -24,8 +24,8 @@ Don’t get me wrong. GTD, PARA (Second Brain), and Bullet Journalling are amazi
 - You **save mental energy** by creating an engine that defines your next steps instead of having to consider it individually.
 
 # **How it works:**
+<img src="../images/articles/howitworks.jpeg" alt="How It Works" style="width:100%; max-width:600px;">
 
-https://miro.medium.com/v2/resize:fit:700/0*HBx7PcXVCcxbGq_O
 
 # Break-down of Knowledge, Energy, and Engines:
 
@@ -50,8 +50,8 @@ An engine requires:
 For each of your purposes, you create an engine. There are essential engines that we all use, and add-ons can be incorporated based on one's personal situation. It's even beneficial to explicitly specifcy your routines and habits outside of your system.
 
 Here are some examples of all types of engines:
+<img src="../images/articles/exampleskee.png" alt="Example Skee" style="width:100%; max-width:600px;">
 
-https://miro.medium.com/v2/resize:fit:700/0*8REszKb5AChcsBIK
 
 You create engines that produce results in alignment with your intentions. That also means that if the energy doesn’t have a clear engine to be assigned to, you simply discard it. Don’t be afraid to toss out information that isn’t useful. If something truely is important, it will pop back up. By keeping it lean, the system will run smoother and require less maintenance.
 

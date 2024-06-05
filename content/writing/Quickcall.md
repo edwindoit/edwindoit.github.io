@@ -33,11 +33,10 @@ Everyone has a different context, which warrants specific rules that apply to yo
 - Richard Dawkin’s selfish-gene version of evolutionary theory
 - Game theory and microeconomics as interpreted by Naval Ravikant
 
-Below, you will find examples of several rules for three of the action types.
+Below, you will find examples of several rules for three of the action types: 1) Solution generation, 2) Solution selection and 3) Plan creation.
 
-Included rules for 1) Solution generation, 2) Solution selection and 3) Plan creation.
+<img src="../images/articles/qqexamples.png" alt="Exmples" style="width:100%; max-width:600px;">
 
-!https://miro.medium.com/v2/resize:fit:1000/1*m_cdiDgoVk9_Mqws1WMytQ.png
 
 # Get the Quick Call tool Notion template
 

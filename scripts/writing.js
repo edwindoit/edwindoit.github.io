@@ -1,9 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     const entries = [
-        { title: "First Writing Entry", file: "entry1.md", date: "2024-01-01", id: "firstwritingentry" },
+        { title: "Read better", file: "Betterreader.md", date: "11-13-2022", id: "Betterreader" },
         { title: "How to introduce", file: "Introduction.md", date: "12-10-2022", id: "Introduction" },
         { title: "The KEE system", file: "KEEsystem.md", date: "10-11-2022", id: "Keesystem" },
-        { title: "Read better", file: "Betterreader.md", date: "11-13-2022", id: "Betterreader" },
         { title: "Killer apps 2022", file: "Killerapps2022.md", date: "03-09-2022", id: "Killerapps2022" },
         { title: "Killer apps 2024", file: "Killerapps2024.md", date: "27-03-2024", id: "Killerapps2024" },
         { title: "Goalsetting is hard", file: "Goalsettinghard.md", date: "10-11-2022", id: "Goalsettinghard.md" },
@@ -60,12 +59,14 @@ document.addEventListener('DOMContentLoaded', () => {
             .then(response => response.text())
             .then(text => {
                 content.innerHTML = marked.parse(text);
+                window.scrollTo(0, 0); // Scroll to the top after loading the content
                 if (id) {
                     setActiveEntryById(id);
                 }
             })
             .catch(error => console.error('Error loading the writing entry:', error));
     }
+    
 
     function setActiveEntryById(id) {
         entries.forEach(entry => {
@@ -124,3 +125,4 @@ document.addEventListener('DOMContentLoaded', () => {
 function handleResize() {
     // No-op function to prevent errors
 }
+

@@ -47,8 +47,9 @@ I have an iPhone as my everyday smartphone, but around 21:00, I put it away and 
 The BOOX Palma is a phone-sized tablet (without cellular) that runs Android, but what makes it unique is its E-ink display — the same display you get in e-readers. The screen is pleasant on the eyes and perfect for reading. It’s not distracting because it's black & white, and it has a low refresh rate (this also delivers an impressive battery life). Amazingly it’s still running Android, and that means all your favorite reading and audio apps can be easily used as well! This is what I currently have on mine:
 
 BOOX Palma app setup
+<img src="../images/articles/palmapps.webp" alt="Palma apps" style="width:100%; max-width:600px;">
 
-!https://miro.medium.com/v2/resize:fit:700/1*cQEA3a-1y2RFkE2tvZK_zQ.png
+
 
 1. My [**Meditation app**](https://meditationapp.wixsite.com/download-app) of choice. It's free, simple, and works.
 2. A big widget of all my latest [**Notion**](https://notion.grsm.io/w2nmytt9w3h8) pages

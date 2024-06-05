@@ -44,7 +44,8 @@ Example of the topbar element of Cron Calendar
 
 Muscle memory is when you drop your focus and start automatically and unknowningly doing other things. You've probably caught yourself doing it before. I often find myself scrolling or opening up random websites when my attention dwindles. To stop this and ensure you don’t go down a rabbit hole you can use an app like [Freedom](https://freedom.to/dashboard). Freedom lets you entirely block websites from all your devices at varying time-intervals. These are all the blocks I have set up:
 
-!https://miro.medium.com/v2/resize:fit:700/0*bT1414Q0Cc_n2qhn.png
+<img src="../images/articles/freedom.webp" alt="Freedom blocklist" style="width:100%; max-width:600px;">
+
 
 Freedom offers a free trial — which I suggest you try out. If you’re like me, you’ll notice how much time you’re saving and warrant the small purchase of only around 3 usd/eu a month.
 
