@@ -95,25 +95,24 @@ tr:last-child {
 
 /* Sidebar styles */
 .sidebar {
-    width: 100%; /* Full width for mobile view */
-    height: 100%;
+    width: 250px;
     background-color: #FAFAFA;
-    border-top: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
     padding: 1.5rem;
     padding-top: 4rem;
     box-sizing: border-box;
     position: fixed;
     left: 0;
+    top: 0;
     bottom: 0;
-    top: auto;
     overflow-y: auto; /* Allows scrolling */
     transition: transform 0.3s ease;
-    transform: translateY(100%); /* Start from bottom */
+    transform: translateY(100%);
     z-index: 100;
 }
 
 .sidebar.open {
-    transform: translateY(0); /* Move to view */
+    transform: translateY(0);
 }
 
 .logo a {
@@ -280,7 +279,7 @@ footer {
 
 @media screen and (min-width: 480px) {
     .sidebar {
-        transform: translateY(100%);
+        transform: translate(0);
     }
 
     .menu-toggle {
@@ -364,6 +363,8 @@ footer {
         justify-content: center; /* Center the menu items */
     }
 
+
+    
     .menu-item:hover {
         border: none; /* Remove border on hover */
         background-color: inherit; /* Remove background color change on hover */
@@ -393,7 +394,6 @@ footer {
         z-index: 1000; /* Ensure it is on top */
         outline: none; /* Remove outline */
         border: none; /* Ensure no border */
-        border-top: solid 1px #eaeaea;  
     }
 
     .menu-toggle img {
@@ -406,6 +406,7 @@ footer {
     }
 
     .menu-icon {
+
         margin-right: 10px;
     }
 }
