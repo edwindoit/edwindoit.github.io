@@ -255,6 +255,7 @@ tr:last-child {
 /* Active state for entry */
 .entry-wrapper.active {
     color: #0249FF; /* Text color for active entry */
+    border: none; /* Ensure no border */
 }
 
 /* Main content styles */
@@ -394,6 +395,7 @@ footer {
         z-index: 1000; /* Ensure it is on top */
         outline: none; /* Remove outline */
         border: none; /* Ensure no border */
+        border-top: 1px solid #eaeaea; 
     }
 
     .menu-toggle img {
@@ -408,5 +410,12 @@ footer {
     .menu-icon {
 
         margin-right: 10px;
+       
+    }
+
+    .logo-img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: -30px;
     }
 }
