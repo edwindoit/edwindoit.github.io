@@ -4,10 +4,7 @@
     --media-lg: 1000px;
 }
 
-
 /* General styles */
-
-
 
 body {
     font-family: 'DM Sans', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
@@ -22,31 +19,24 @@ body {
     color: #333;
 }
 
-
 a {
     outline-color: transparent;
     text-decoration: none;
     padding: 2px 1px 0;
-  }
+}
   
-  a:link {
+a:link {
     color: #0249FF;
-  }
+}
   
-  a:visited {
+a:visited {
     color: #0249FF;
-  }
+}
   
-  a:focus,
-  a:hover {
+a:focus,
+a:hover {
     border-bottom: 1.5px solid;
-  }
-  
-  
-
-
-
-
+}
 
 .container {
     display: flex;
@@ -65,8 +55,6 @@ blockquote {
     color: #111;
     box-shadow: 4px 4px 0 #111;
 }
-
-
 
 table {
     width: 100%;
@@ -101,37 +89,32 @@ td:last-child, th:last-child {
     border-right: none; /* Remove separator from the last column */
 }
 
-
 tr:last-child {
     border-bottom: none; /* Remove separator from the last row */
 }
 
-
-
-
 /* Sidebar styles */
 .sidebar {
-    width: 250px;
+    width: 100%; /* Full width for mobile view */
+    height: 100%;
     background-color: #FAFAFA;
-    border-right: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
     padding: 1.5rem;
     padding-top: 4rem;
     box-sizing: border-box;
     position: fixed;
     left: 0;
-    top: 0;
     bottom: 0;
+    top: auto;
     overflow-y: auto; /* Allows scrolling */
     transition: transform 0.3s ease;
-    transform: translateX(-100%);
+    transform: translateY(100%); /* Start from bottom */
     z-index: 100;
 }
 
 .sidebar.open {
-    transform: translateX(0);
+    transform: translateY(0); /* Move to view */
 }
-
-
 
 .logo a {
     font-size: 1.5rem;
@@ -143,7 +126,6 @@ tr:last-child {
     border-bottom: none; /* Prevent underline on hover */
 }
 
-
 .logo-img {
     width: 70px;
     height: 70px;
@@ -153,7 +135,6 @@ tr:last-child {
     font-family: Inconsolata, monospace;
     display: flex;
     align-items: center; /* Vertically align items */
-    justify-content: space-between;
     margin-bottom: 10px;
     color: #333;
     text-decoration: none;
@@ -163,6 +144,7 @@ tr:last-child {
     border-radius: 4px;
     background-color: #FAFAFA;
 }
+
 .menu-item:hover {
     border: 1px solid #eaeaea;
     border-radius: 4px;
@@ -173,20 +155,21 @@ tr:last-child {
 .menu-icon {
     width: 12px; /* Set the desired width */
     height: 12px; /* Set the desired height */
-    margin-right: 10px;
+    margin-right: 14px;
     margin-left: 10px;
     margin-bottom: 3px;
     display: inline-block;
     vertical-align: middle; /* Ensure vertical alignment */
-    
 }
 
+.external-link-icon-placeholder {
+    width: 24px; /* Same width as the icon */
+    height: 24px; /* Same height as the icon */
+}
 
-.external-link-icon {
-    position: absolute;
-    right: 20px; /* Adjust to align with padding */
-    font-size: 1.2em; /* Adjust size as needed */
-    color: #0249FF;
+.external-link-icon img {
+    width: 12px; /* Adjust size as needed */
+    height: 12px;
 }
 
 .menu {
@@ -194,7 +177,8 @@ tr:last-child {
 }
 
 .menu a {
-    display: block;
+    display: flex; /* Change to flex */
+    align-items: center; /* Center items vertically */
     padding: 0.5rem 0;
     font-size: 14px;
     color: #333;
@@ -215,9 +199,6 @@ tr:last-child {
     color: #0249FF;
     font-weight: bolder;
 }
-
-
-
 
 /* Writing sidebar styles */
 .writing-sidebar {
@@ -242,17 +223,8 @@ tr:last-child {
     color: #333;
 }
 
-.writing-sidebar a:hover {
-    text-decoration: underline;
-}
-
 
 /* Writing sidebar entries */
-
-
-
-/* Add these styles to main.css */
-
 .entry-wrapper {
     display: block;
     margin-bottom: 15px; /* Space between entries */
@@ -280,10 +252,9 @@ tr:last-child {
     color: #888; /* Different color for date */
     font-size: 0.7rem; /* Smaller font size for date */
 }
+
 /* Active state for entry */
 .entry-wrapper.active {
-    background-color: #e0e0e0; /* Light grey background for active entry */
-    border-color: #0249FF; /* Border color for active entry */
     color: #0249FF; /* Text color for active entry */
 }
 
@@ -307,26 +278,9 @@ footer {
     color: #fff;
 }
 
-
-/*  
-.menu-toggle {
-    display: block; /* Visible on smaller screens 
-    position: fixed;
-    top: 10px;
-    left: 10px;
-    background-color: #333;
-    color: #fff;
-    border: none;
-    padding: 10px 15px;
-    font-size: 1.5rem;
-    cursor: pointer;
-    z-index: 1000;
-} 
-*/
-
 @media screen and (min-width: 480px) {
     .sidebar {
-        transform: translateX(0);
+        transform: translateY(100%);
     }
 
     .menu-toggle {
@@ -344,13 +298,6 @@ footer {
         margin-left: 540px; /* Width of writing sidebar + regular sidebar + 40 px somehow? */
     }
 }
-
-
-
-
-
-
-
 
 /* Media query targeting only the writing page for the behavior */
 @media screen and (max-width: 960px) {
@@ -397,8 +344,8 @@ footer {
         box-sizing: border-box;
         max-width: none; /* Remove max width */
     }
-    
 }
+
 /* New styles for mobile view */
 @media screen and (max-width: 480px) {
     .sidebar {
@@ -410,20 +357,20 @@ footer {
 
     .menu-item {
         display: block; /* Make each menu item a block-level element */
-        justify-content: center; /* Center the menu items */
         text-align: center; /* Center the text */
         margin: 0px 0; /* Adjust padding to reduce height */
         border: none; /* Remove border on hover */
         background-color: inherit; /* Keep background color consistent */
+        justify-content: center; /* Center the menu items */
     }
-    
+
     .menu-item:hover {
         border: none; /* Remove border on hover */
         background-color: inherit; /* Remove background color change on hover */
     }
     
     .menu-divider {
-        margin: 0.5 rem 0;
+        margin: 0.5rem 0;
         border-bottom: 1px solid #eaeaea; /* Add a border below each divider */
         padding: 0.25rem 0;
         font-size: 0.875rem;
@@ -440,9 +387,11 @@ footer {
         width: 100%; /* Full width */
         height: 60px; /* Adjust height as needed */
         background-color: #FAFAFA; /* Background color */
+        border-top: solid 1px #eaeaea;  
         padding: 0; /* Remove padding */
         cursor: pointer; /* Pointer cursor */
         z-index: 1000; /* Ensure it is on top */
+        outline: none; /* Remove outline */
         border: none; /* Ensure no border */
         border-top: solid 1px #eaeaea;  
     }
@@ -450,6 +399,13 @@ footer {
     .menu-toggle img {
         width: 40px; /* Adjust image size as needed */
         height: 40px;
-    } 
+    }
 
+    .menu-toggle:focus {
+        outline: none; /* Remove focus outline */
+    }
+
+    .menu-icon {
+        margin-right: 10px;
+    }
 }
