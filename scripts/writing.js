@@ -1,6 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
     const entries = [
-        { title: "Read better", file: "Betterreader.md", date: "11-13-2022", id: "Betterreader" },
+        { title: "Optimize learning", file: "Optimizelearning.md", date: "19-06-2024", id: "Betterreader" },
+        { title: "Read better", file: "Betterreader.md", date: "11-12-2022", id: "Betterreader" },
         { title: "How to introduce", file: "Introduction.md", date: "12-10-2022", id: "Introduction" },
         { title: "The KEE system", file: "KEEsystem.md", date: "10-11-2022", id: "Keesystem" },
         { title: "Killer apps 2022", file: "Killerapps2022.md", date: "03-09-2022", id: "Killerapps2022" },
