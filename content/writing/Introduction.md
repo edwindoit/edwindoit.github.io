@@ -1,4 +1,4 @@
-# Thoughts on the art of introduction
+# Distill, don't summarize 
 
 2022-12-10 <br> 1 min read
 
@@ -8,7 +8,7 @@ When attempting to condense information, we tend to **summarize** and make it mo
 
 Summarizing also turns information into generic, utopian, and virtuous statements. Phrases like: “Helping people is my north star” may seem wonderful initially, but you’re not saying anything different or contrarian. Ask yourself: who would disagree with that statement? If the answer is practically nobody, you're likely just *virtue-signaling*.
 
-So if summarizing is so laced with problems, then what is the right approach to take? I propose the following method:
+So if summarizing is so laced with problems, then what is the right approach to take? Distillation is better. Distillation is draining out everything that isn't essential and leaving what's left. This is how you can apply it:
 
 1. Describe X amount of specific and understandable statements about the subject that you're introducing
 2. Select the statements that convey the essential and most important information for the given situation. Less is more.
