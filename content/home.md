@@ -1,7 +1,9 @@
 
+<div style="text-align: center;">
+  <h2>Hi, my name is Edwin</h2>
+  <img src="../images/headshot.png" alt="headshot" style="width:100%; max-width:200px; display: block; margin: 0 auto;">
+</div>
 
-
-## Hi, my name is Edwin
 
 > ### I write about  fundamental explanations and how they lead us to the most suitable course of action 
 
