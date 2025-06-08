@@ -111,23 +111,31 @@ async function initializeBookCovers() {
         const img = card.querySelector('.book-cover');
         const originalSrc = img.src; // Store original image as fallback
         
-        // Add loading state
-        img.style.opacity = '0.5';
-        
         // Get author and ISBN from data attributes
         const author = card.dataset.author;
         const isbn = card.dataset.isbn;
         
-        const coverUrl = await fetchBookCover(title, author, isbn);
+        // Create a unique cache key
+        const cacheKey = `coverUrl_${isbn || title}_${author}`;
+        
+        // Try to get from localStorage
+        let coverUrl = localStorage.getItem(cacheKey);
+        
+        if (!coverUrl) {
+            // Add loading state
+            img.style.opacity = '0.5';
+            // Fetch from API
+            coverUrl = await fetchBookCover(title, author, isbn);
+            // Cache the result (even if null, to avoid repeated failed lookups)
+            localStorage.setItem(cacheKey, coverUrl || '');
+        }
         
         if (coverUrl) {
             img.src = coverUrl;
-            img.style.opacity = '1';
         } else {
-            // If no cover found, keep original image
             img.src = originalSrc;
-            img.style.opacity = '1';
         }
+        img.style.opacity = '1';
     }
 }
 

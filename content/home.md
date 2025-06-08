@@ -5,13 +5,15 @@
 </div>
 
 
-> ### I write about  fundamental explanations and how they lead us to the most suitable course of action 
+> ### I explore how fundamental explanations of reality can help us optimize our actions
 
 **Currently, I am...** 
 
-- Writing [The 4 Acts Book](../4acts.html) (first review cycle)
-- Growing health-tech company [Formelio](https://formelio.nl) (COO)
-- Creating personal workflows & [Notion templates](https://edwindoit.gumroad.com/) for improved effectiveness
+- Creating a weekly [YouTube series](https://www.youtube.com/@edwindoit) on: How to Practically Apply the Ideas of David Deutsch  
+- Writing [The 4 Acts Book](../4acts) (first review cycle)
+- Taking [consulting](../services) projects in operations & tooling (former COO), health-tech solution architecture, Notion workspace design, and other things that spark my curiosity.
+
+
 
 <br> 
 
@@ -27,7 +29,7 @@ Every month, I share an actionable rundown of what I'm working on and the great 
 
 
 ## About
-I'm passionate about effectiveness. The 4 Acts (my book) is a distillation of the lessons I learned from my own research as well as from building and running a software business. I define being effective as making progress towards a desired outcome. This differs from being productive. Productivity is just about maximizing output and efficiency, without regard for direction. Effective action requires more than just productivity. It's also about reflecting on your goals and questioning what's important.
+I’m interested in understanding how the world works and using that knowledge to become more effective. Right now, I’m most passionate about writing The 4 Acts, a problem-solving framework I created based on Critical Rationalism and the ideas of David Deutsch. The 4 Acts is not about solving just any problem or maximizing output. It’s about making progress toward a specific and intentional outcome. That takes more than productivity; it requires reflecting on your direction and questioning what truly matters.
 
 
 
@@ -38,24 +40,28 @@ I'm passionate about effectiveness. The 4 Acts (my book) is a distillation of th
 
 
 
-I’m a techy with strong organizational and leadership skills:
-- Active within and founder of social impact initiatives since 2018
-- From design intern to product manager to COO at Formelio. From start-up to scale-up to stay-up. 2018 - 2024 and running
+- From the Netherlands 🇳🇱
+- Founder & organizer of social impact projects since 2018
 - Notion evangelist since 2020
+- 4 years as COO at Health-tech company Formelio
+- Currently partime Innovation Architect & Strategy at [Formelio](https://formelio.nl)
 
 
 
+### Principles I believe in
+- Liberty and agency
+- Knowledge creation through Critical Rationalism
+- Infinite progress
+- Rational optimism 
 
-
-### What I believe in
-
-
-
-- Accelerating Human Progress
-- Critical rationalism (Popperian & Deutschian Epistemology)
-- Optimalism & Effectiveness
-- Rational optimism
-
+### Interests
+- Bodybuilding
+- Hiking
+- Italian nature, food, and wine
+- [Tech house](https://youtu.be/w3nH0uEHh7Y?si=g8_bFKRPSHmI0f89) & [Afro house](https://www.youtube.com/watch?v=eEobh8iCbIE&ab_channel=keinemusik) music
+- Indie-hacking: solo software startups
+- Decentralized and democratizing technologies (SSID, blockchain smart contracts, verifiable credentials)
+- New social technologies and systems (Futarchy, anarcho-capitalism, quadratic voting, public goods funding)
 
 ### In a nutshell
 
@@ -70,14 +76,14 @@ I seek to bridge the gap between complex theories and real-world applications by
 
 
 
-[Twitter](https://twitter.com/edwindoit)  
+[X (Twitter)](https://twitter.com/edwindoit)  
+
+[YouTube](https://www.youtube.com/@edwindoit)
+
+[Substack Newsletter](https://edwindoit.substack.com)
 
 
-[Reddit](https://www.reddit.com/user/Practics1)
-
-
-
-[e-mail me](mailto:me@edwindoit.com)
+[E-mail](mailto:me@edwindoit.com)
 
 
 [Medium](https://medium.com/@edwindoit)

@@ -6,6 +6,31 @@ document.addEventListener('DOMContentLoaded', () => {
             document.querySelector('.container').insertAdjacentHTML('afterbegin', data);
             addMenuToggleFunctionality(); // Call the function to add toggle functionality
             setActiveMenuItem(); // Set active menu item after loading sidebar
+
+            // Banner close/hide logic (runs after sidebar is loaded)
+            const banner = document.querySelector('.pre-order-banner');
+            if (banner) {
+                const closedAt = localStorage.getItem('bannerClosedAt');
+                if (closedAt) {
+                    const now = Date.now();
+                    const fourDays = 4 * 24 * 60 * 60 * 1000; // 4 days in ms
+                    if (now - parseInt(closedAt, 10) < fourDays) {
+                        banner.style.display = 'none';
+                    } else {
+                        // More than 4 days have passed, remove the flag and show banner
+                        localStorage.removeItem('bannerClosedAt');
+                        banner.style.display = '';
+                    }
+                }
+                const closeBtn = banner.querySelector('.banner-close');
+                if (closeBtn) {
+                    closeBtn.addEventListener('click', function(e) {
+                        e.preventDefault();
+                        banner.style.display = 'none';
+                        localStorage.setItem('bannerClosedAt', Date.now().toString());
+                    });
+                }
+            }
         });
 
     // Load page content
@@ -64,4 +89,21 @@ document.addEventListener('DOMContentLoaded', function() {
             menuIcon.src = 'images/Icons/Menuclose.svg'; // Path to the close menu icon
         }
     });
+});
+
+function closeBanner() {
+    const banner = document.querySelector('.pre-order-banner');
+    if (banner) {
+        banner.style.display = 'none';
+        // Save preference in localStorage
+        localStorage.setItem('bannerClosed', 'true');
+    }
+}
+
+// Check if banner should be shown
+document.addEventListener('DOMContentLoaded', function() {
+    const banner = document.querySelector('.pre-order-banner');
+    if (banner && localStorage.getItem('bannerClosed') === 'true') {
+        banner.style.display = 'none';
+    }
 });

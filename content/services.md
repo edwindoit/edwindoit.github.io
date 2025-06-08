@@ -27,7 +27,7 @@ Each organization is unique and has different needs. If you’ve made the choice
 
 ## My background
 
-I’m a COO in a 40+ employee health tech organization that manages all workflows and related tools. Over the past 4 years, we’ve gone from start-up to scale-up to stay-up. During this time I’ve instantiated and performed many roles. I was:
+I’ve fulfilled the role of COO in a 40+ employee health tech organization Formelio. We brought the company from from start-up to scale-up to stay-up. During this time I’ve instantiated and performed many roles:
 
 - Product Designer
 - Service Manager (& Customer Support)
