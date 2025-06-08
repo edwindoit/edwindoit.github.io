@@ -1,40 +1,32 @@
-If you're tired of stringing together bloated systems for documentation, project management, road mapping, feedback management, task management, and on and on... 
+## Services
 
-Then you're not alone. 
-
-After setting up and running our 40+ employee tech company in notion for the past 3 years I've learned how it can be done better with Notion. 
+I offer consulting services in the following areas:
 
 
-# A custom Notion workspace for your business
+- Operational Processes & Tooling: Consulting for tech companies to improve efficiency across operations—spanning management, product development, and customer support.
 
-## **€750**
+- Notion: Support with change management, workflow design, and custom template creation to streamline team operations.
 
-### One time fee
+- Decentralized Healthcare Architecture: Designing secure systems and networks, producing technical documentation, and facilitating co-creation sessions. Experienced with FHIR, SSI, and Trust over IP and Dutch/EU legislation.
 
-Each organization is unique and has different needs. If you’ve made the choice to take your operations to Notion I can help you get set up. The package includes:
+If you have a need beyond these areas and think I might be a good fit, feel free to reach out.
 
-**✓** A 1-hour introduction call to assess the specific needs of your team
-
-**✓** A Custom Notion template & set-up guide
-
-**✓** A 30-minute walkthrough of the template
-
-**✓** 1 hour's worth of follow-up questions
 
 
 [Get in touch →](mailto:me@edwindoit.com)
 
 
-## My background
+## Background & experience
 
-I’ve fulfilled the role of COO in a 40+ employee health tech organization Formelio. We brought the company from from start-up to scale-up to stay-up. During this time I’ve instantiated and performed many roles:
+I’ve fulfilled the role of COO in a 30+ employee health tech organization Formelio. Brought the company from from start-up to scale-up to stay-up. Along the way, I established our operational domains and took on the following roles:
 
 - Product Designer
 - Service Manager (& Customer Support)
 - Project Manager
-- Product Owner (Sprint Facilitator)
+- Product Owner (& Sprint Facilitator)
 - Solution Architect
 - Product Manager
+- COO
 
 My experience is beyond tooling, organization, and management. It comes from hands-on work and a fundamental understanding of what is supposed to go on in each business domain. 
 
