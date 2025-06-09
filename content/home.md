@@ -11,13 +11,13 @@
 
 - Creating a weekly [YouTube series](https://www.youtube.com/@edwindoit) on: How to Practically Apply the Ideas of David Deutsch  
 - Writing [The 4 Acts Book](../4acts) (first review cycle)
-- Taking [consulting](../services) projects in operations & tooling (former COO), health-tech solution architecture, Notion workspace design, and other things that spark my curiosity.
+- Taking [consulting work](../services)  in operations & tooling (former COO), health-tech solution architecture, Notion workspace design, and other things that spark my curiosity.
 
 
 
 <br> 
 
-### Check out the Do-It Newsletter 
+### The Do It Newsletter 
 
 Every month, I share an actionable rundown of what I'm working on and the great resources I come across. It covers effectiveness, health, productivity, technology, and reasoning. 
 
@@ -69,11 +69,7 @@ I seek to bridge the gap between complex theories and real-world applications by
 
 
 
-
-
-
 ### Links
-
 
 
 [X (Twitter)](https://twitter.com/edwindoit)  

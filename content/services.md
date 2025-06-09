@@ -3,11 +3,11 @@
 I offer consulting services in the following areas:
 
 
-- Operational Processes & Tooling: Consulting for tech companies to improve efficiency across operations—spanning management, product development, and customer support.
+- **Operational Processes & Tooling**: Advising tech companies on improving operational efficiency across all domains—management, product development, customer service, and more.
 
-- Notion: Support with change management, workflow design, and custom template creation to streamline team operations.
+- **Notion**: Support with change management, workflow design, and custom template creation to streamline team operations.
 
-- Decentralized Healthcare Architecture: Designing secure systems and networks, producing technical documentation, and facilitating co-creation sessions. Experienced with FHIR, SSI, and Trust over IP and Dutch/EU legislation.
+- **Decentralized Healthcare Architecture**: Designing secure systems and networks, producing technical documentation, and facilitating co-creation sessions. Experienced with FHIR, SSI, and Trust over IP and Dutch/EU legislation.
 
 If you have a need beyond these areas and think I might be a good fit, feel free to reach out.
 
@@ -28,7 +28,7 @@ I’ve fulfilled the role of COO in a 30+ employee health tech organization Form
 - Product Manager
 - COO
 
-My experience is beyond tooling, organization, and management. It comes from hands-on work and a fundamental understanding of what is supposed to go on in each business domain. 
+My experience is beyond tooling and management. It comes from hands-on work and a fundamental understanding of what is supposed to go on in each business domain. 
 
 ## Testimonials
 
