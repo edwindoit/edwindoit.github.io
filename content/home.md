@@ -17,7 +17,7 @@
 
 <br> 
 
-### The Do It Newsletter 
+### The Do-It Newsletter 
 
 Every month, I share an actionable rundown of what I'm working on and the great resources I come across. It covers effectiveness, health, productivity, technology, and reasoning. 
 
