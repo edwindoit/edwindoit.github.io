@@ -16,13 +16,282 @@
         <button class="menu-toggle" id="menu-toggle">
             <img src="images/Icons/Menuopen.svg" alt="Menu Icon" id="menu-icon">
         </button>       
-        <main class="content">
-            <section id="content">
-                <!-- Content will be dynamically inserted here -->
+        <main class="content landing-page">
+            <!-- Hero Section with Book Image, Text, and Form -->
+            <section class="hero-section">
+                <div class="hero-content">
+                    <div class="book-column">
+                        <img src="images/1.png" alt="The 4 Acts Book" class="book-image">
+                    </div>
+                    <div class="text-column">
+                        <h3>The 4 Acts...</h3>
+                        <ul>
+                            <li>Is a model to improve problem formulation, solution selection, execution, and error correction.</li>
+                            <li>Helps you avoid both underthinking and overthinking by using structured, explanation-driven strategies.</li>
+                            <li>Encourages shifting from a "Factual" understanding to an "Explanatory" one — leading to deeper knowledge and greater efficiency.</li>
+                        </ul>
+                        
+                        <!-- Form integrated into hero section -->
+                        <div class="form-container hero-form">
+                            <div class="initial-buttons" id="initial-buttons">
+                                <button class="action-button notify-button">Be notified when it's ready</button>
+                                <button class="action-button preorder-button">Pre-order</button>
+                            </div>
+                            
+                            <div class="form-wrapper" id="form-wrapper" style="display: none;">
+                                <p class="form-label" id="form-label"></p>
+                                <form action="https://api.web3forms.com/submit" method="POST" id="contact-form" class="contact-form">
+                                    <input type="hidden" name="access_key" value="3befd6b1-be76-4455-9657-40e56c6a8840">
+                                    <input type="hidden" name="intent" id="user-intent" value="">
+                                    <input type="hidden" name="form_location" value="hero">
+                                    
+                                    <div class="form-group">
+                                        <label for="email">Email</label>
+                                        <input type="email" id="email" name="email" required>
+                                    </div>
+
+                                    <div class="form-group checkbox-group">
+                                        <label class="form-label">Early access?</label>
+                                        <label class="checkbox-label">
+                                            <input type="checkbox" name="early_review" id="early_review">
+                                            <span>I'd like to receive pre-release versions</span>
+                                        </label>
+                                    </div>
+
+                                    <div class="form-group checkbox-group">
+                                        <label class="form-label">What do you wish to get out of this book?</label>
+                                        <label class="checkbox-label">
+                                            <input type="checkbox" name="optimize_problem_solving" id="optimize_problem_solving">
+                                            <span>To optimize my problem-solving</span>
+                                        </label>
+                                        <label class="checkbox-label">
+                                            <input type="checkbox" name="explore_deutsch" id="explore_deutsch">
+                                            <span>To explore David Deutsch's ideas</span>
+                                        </label>
+                                    </div>
+
+                                    <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                                    
+                                    <button type="submit" class="submit-button">Submit</button>
+                                </form>
+                            </div>
+
+                            <div id="success-message" class="success-message">
+                                Sign-up successful!
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Text Block 2 -->
+            <section class="text-block">
+                <h3>The practical steps in The 4 Act cycle:</h3>
+                
+                <div class="acts-grid">
+                    <div class="act-section">
+                        <h4>Act 1: Understand (the problem)</h4>
+                        <ul>
+                            <li>Picking the right problem to work on</li>
+                            <li>Pinpointing a root problem to focus on</li>
+                            <li>Analyze the environment of the problem</li>
+                        </ul>
+                    </div>
+
+                    <div class="act-section">
+                        <h4>Act 2: Choose (the solution)</h4>
+                        <ul>
+                            <li>Specify a goal (intended outcome)</li>
+                            <li>Generate candidate solutions</li>
+                            <li>Select the satisfactory solution(s)</li>
+                        </ul>
+                    </div>
+
+                    <div class="act-section">
+                        <h4>Act 3: Do (implement effectively by...)</h4>
+                        <ul>
+                            <li>Doing what's fun</li>
+                            <li>Nourishing your willpower</li>
+                            <li>Training your willpower</li>
+                            <li>Optimizing your approach</li>
+                        </ul>
+                    </div>
+
+                    <div class="act-section">
+                        <h4>Act 4: Learn (update your knowledge)</h4>
+                        <ul>
+                            <li>Assess the (performance) data</li>
+                            <li>Update your prior understanding accordingly</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="cycle-text" style="text-align: center; margin-top: 2rem; font-weight: bold;">And repeat!</p>
+            </section>
+
+            <!-- Text Block 3 -->
+            <section class="text-block">
+                <h3>The benefits of using The 4 Acts Cycle:</h3>
+                <p style="font-style: italic; color: rgb(137, 133, 133);"> (excerpt from the book)</p> 
+                
+                <p>With the 4 Acts, you gain a simple, repeatable process for assessing real-world problems. This framework helps you identify the critical steps in any process, equipping you with the tools to understand it more effectively. By breaking problems into clear, logical sub-steps that can be objectively analyzed—rather than relying solely on intuition—you're better positioned to determine the optimal course of action.</p>
+
+                <p>However, the ultimate value of the 4 Acts framework lies beyond its direct application. Its true power emerges when you use it to create and internalize your own explanatory worldview. This shift allows you to approach problems with deeper understanding and adaptability. Let's explore three key reasons why cultivating an explanatory worldview is so useful.</p>
+
+                <ol>
+                    <li><strong>You can apply first principle thinking</strong> to effectively solve problems from a base-level understanding of how everything works, as opposed to starting from scratch.</li>
+                    <li><strong>You can filter out nonsense quicker</strong> by knowing how the world works, and more importantly, how it doesn't. Ignoring the nonsense.</li>
+                    <li><strong>You can construct and readjust your worldview</strong> when you go through experiences and acquire new knowledge.</li>
+                </ol>
+
+                <p>To illustrate these benefits, I'll describe how all three helped me throughout various challenges in my career.</p>
+
+                <h4>1. Applying first-principle thinking</h4>
+                <p>When I first transitioned from a design role to a management role, one of my new responsibilities was hiring employees. For the most part, things went smoothly—until one particular hire turned into a disaster. I had mistaken the candidate's energy, sharpness, and quick wit for genuine competence. It quickly became clear that he was more focused on maintaining the appearance of being on top of things than on delivering results, asking clarifying questions, or taking meaningful action. After weeks of no tangible progress or improvement, I decided it was best for us to part ways.</p>
+
+                <p>Afterward, I used first-principles thinking to reflect on what went wrong in the hiring process. I realized that my mistakes stemmed from mental shortcuts I had relied on during decision-making. The ease of communication with the candidate had blinded me to red flags and led me to skip critical questions. On top of that, I was riding a winning streak in another area of work, which made me overly confident at the time.</p>
+
+                <p>My explanatory worldview and first-principles thinking told me that these mental shortcuts evolved to make decision-making quicker and easier—but they often do so at the expense of accuracy and consistency. These mistakes are valuable lessons that I try to be mindful of whenever I'm in an interview now.</p>
+
+                <h4>2. Filtering out nonsense</h4>
+                <p>Not long after, our CEO asked me to create detailed plans and forecasts outlining what new releases we would deliver for each product line over the next 3, 6, 12, and even 24 months. Rather than diving into the task and spending days crafting highly detailed projections, I paused to consider whether it was worth the effort. My explanatory worldview told me it wasn't—it contradicted how the world actually works.</p>
+
+                <p>First, the level of uncertainty beyond three months is too much to ensure accurate predictions. Internal and external variables are too numerous and interconnected to forecast reliably over longer timeframes. Second, the request required factoring in the actions of other people and companies—factors that aren't just unpredictable but fundamentally unknowable.</p>
+
+                <p>So, instead, I went back to the CEO and negotiated that we can tailor the accuracy of the planning towards the timeframe. 3 months will be detailed, 6 months rough, 12 months will be financial targets without much of a plan and 24 months purely speculative. He agreed, and we maintain a similar strategy to this day.</p>
+
+                <h4>3. Constructing and readjusting your worldview</h4>
+                <p>A lot of eager-beavers may recognize that it's easy to become very busy very fast. Initially, I didn't think this would be much of an issue for me, as I had a solid understanding of time management and productivity from my own research. I knew the importance of listing and prioritizing essential activities and scheduling them to ensure they get done. This approach helped me make time for essentials like work, relaxation, gym sessions, sleep, leisure, and healthy eating. Yet, despite my efforts, I often felt like I was constantly catching up and draining my energy.</p>
+
+                <p>This prompted me to reevaluate my worldview on scheduling. I found the insight I needed in <em>The Productivity Project</em> by Chris Bailey, which helped me realize I was neglecting non-urgent "maintenance" work. Now, every Saturday, I set aside 3–4 hours for tasks like cleaning, laundry, making backups, organizing emails, and updating finances. These small tasks provide me with both peace of mind and a great sense of accomplishment.</p>
+
+                <p>Because I had an explicit understanding of how my system for managing my energy and time worked, it was possible to spot the gap and make meaningful improvements. If I had been blindly following someone else's time-management framework, I might have been tempted to discard it entirely and chase the next shiny productivity tool instead. In doing so, I would have unknowingly lost a lot of the utility of my old system that I was getting from the past system in pursuit of a relatively small gap. That'd be throwing the baby out with the bathwater.</p>
+
+                <h4>Leveraging explanations</h4>
+                <p>By internalizing the 4 Acts cycle, we develop an explanatory worldview—a deeper, more accurate, and wider-ranging model than a simple toolbox of trusted facts. Since explanations are central to the 4 Acts model, I've explicitly marked them in the chapters ahead.</p>
+
+                <p>The <em>explanation</em> chapters describe the theory of how things work. You can identify each explanation chapter by the lightbulb icon: 💡.</p>
+
+                <p><em>Application</em> chapters describe how to apply the knowledge of the explanation chapters in practice. Many of the application chapters also feature worksheets available on my website. You can identify the application chapters by the 🛠️ icon.</p>
+
+                <p>Each act starts with an introduction and ends with a summary. In addition, the individual chapters also all have summaries. The 4 Acts book can be comfortably read from start to finish, but each chapter also stands alone.</p>
+            </section>
+
+            <!-- Final CTA -->
+            <section class="cta-section">
+                <h3>Want to keep reading?</h3>
+                <p>Sign-up and receive chapter 1 of the book!</p>
+                
+                <div class="form-container">
+                    <div class="initial-buttons" id="initial-buttons-2">
+                        <button class="action-button notify-button-2">Be notified when it's ready</button>
+                        <button class="action-button preorder-button-2">Pre-order</button>
+                    </div>
+                    
+                    <div class="form-wrapper" id="form-wrapper-2" style="display: none;">
+                        <p class="form-label" id="form-label-2"></p>
+                        <form action="https://api.web3forms.com/submit" method="POST" id="contact-form-2" class="contact-form">
+                            <input type="hidden" name="access_key" value="3befd6b1-be76-4455-9657-40e56c6a8840">
+                            <input type="hidden" name="intent" id="user-intent-2" value="">
+                            <input type="hidden" name="form_location" value="footer">
+                            
+                            <div class="form-group">
+                                <label for="email-2">Email</label>
+                                <input type="email" id="email-2" name="email" required>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="form-label">Early access?</label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="early_review" id="early_review-2">
+                                    <span>I'd like to receive pre-release versions</span>
+                                </label>
+                            </div>
+
+                            <div class="form-group checkbox-group">
+                                <label class="form-label">What do you wish to get out of this book?</label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="optimize_problem_solving" id="optimize_problem_solving-2">
+                                    <span>To optimize my problem-solving</span>
+                                </label>
+                                <label class="checkbox-label">
+                                    <input type="checkbox" name="explore_deutsch" id="explore_deutsch-2">
+                                    <span>To explore David Deutsch's ideas</span>
+                                </label>
+                            </div>
+
+                            <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
+                            
+                            <button type="submit" class="submit-button">Submit</button>
+                        </form>
+                    </div>
+
+                    <div id="success-message-2" class="success-message">
+                        Sign-up successful!
+                    </div>
+                </div>
             </section>
         </main>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            // First form functionality
+            setupForm('initial-buttons', 'form-wrapper', 'form-label', 'user-intent', 'contact-form', 'success-message', '.notify-button', '.preorder-button');
+            
+            // Second form functionality
+            setupForm('initial-buttons-2', 'form-wrapper-2', 'form-label-2', 'user-intent-2', 'contact-form-2', 'success-message-2', '.notify-button-2', '.preorder-button-2');
+            
+            function setupForm(buttonsId, wrapperID, labelId, intentId, formId, successId, notifySelector, preorderSelector) {
+                const initialButtons = document.getElementById(buttonsId);
+                const formWrapper = document.getElementById(wrapperID);
+                const formLabel = document.getElementById(labelId);
+                const userIntent = document.getElementById(intentId);
+                const notifyButton = document.querySelector(notifySelector);
+                const preorderButton = document.querySelector(preorderSelector);
+
+                function showForm(intent) {
+                    initialButtons.style.display = 'none';
+                    formWrapper.style.display = 'block';
+                    userIntent.value = intent;
+                    
+                    if (intent === 'preorder') {
+                        formLabel.textContent = "Pre-order not ready yet, sign up to know as soon as it is!";
+                    }
+                }
+
+                notifyButton.addEventListener('click', () => showForm('notify'));
+                preorderButton.addEventListener('click', () => showForm('preorder'));
+
+                document.getElementById(formId).addEventListener('submit', function(e) {
+                    e.preventDefault();
+                    
+                    const formData = new FormData(this);
+                    
+                    fetch('https://api.web3forms.com/submit', {
+                        method: 'POST',
+                        body: formData
+                    })
+                    .then(response => response.json())
+                    .then(data => {
+                        if (data.success) {
+                            const successMessage = document.getElementById(successId);
+                            successMessage.style.display = 'block';
+                            this.reset();
+                            
+                            // Hide the form wrapper
+                            document.getElementById(wrapperID).style.display = 'none';
+                            
+                            setTimeout(() => {
+                                successMessage.style.display = 'none';
+                            }, 3000);
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error:', error);
+                    });
+                });
+            }
+        });
+    </script>
 </body>
 </html>
