@@ -605,11 +605,11 @@ footer {
 .contact-form {
     max-width: 600px;
     margin: 0 auto;
-    padding: 2rem;
-    background-color: #FAFAFA;
-    border: 1px solid #eaeaea;
-    border-radius: 4px;
-    box-shadow: 4px 4px 0 #111111;
+    padding: 0;
+    background-color: transparent;
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
 }
 
 .form-group {
@@ -626,7 +626,7 @@ footer {
 
 .form-group input,
 .form-group textarea {
-    width: 100%;
+    width: 95%;
     padding: 0.75rem;
     border: 1px solid #eaeaea;
     border-radius: 4px;
@@ -695,6 +695,15 @@ footer {
     text-align: center;
 }
 
+.form-wrapper {
+    margin-top: 2rem;
+    background: #FAFAFA;
+    border: 1px solid #111;
+    border-radius: 4px;
+    padding: 1.5rem;
+    box-shadow: 4px 4px 0 #111;
+}
+
 .initial-buttons {
     display: flex;
     flex-direction: column;
@@ -730,13 +739,32 @@ footer {
     box-shadow: 2px 2px 0 #111;
 }
 
-.notify-button {
-    background-color: #FAFAFA;
-}
-
-.preorder-button {
+/* Ensure preorder button is always first */
+.preorder-button, .preorder-button-2 {
+    order: -1;
     background-color: #0249FF;
     color: white;
+}
+
+.notify-button, .notify-button-2 {
+    background-color: #FAFAFA;
+    color: #333;
+}
+
+/* Ensure consistent button styling between hero and footer */
+.cta-section .action-button {
+    background-color: #FAFAFA;
+    color: #333;
+}
+
+.cta-section .preorder-button-2 {
+    background-color: #0249FF;
+    color: white;
+}
+
+.cta-section .notify-button-2 {
+    background-color: #FAFAFA;
+    color: #333;
 }
 
 /* Checkbox Styles */
