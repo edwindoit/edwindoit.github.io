@@ -434,7 +434,7 @@ footer {
 }
 
 /* New styles for mobile view */
-@media screen and (max-width: 480px) {
+@media screen and (max-width: 768px) {
     .sidebar {
         width: 100%; /* Full width */
         left: 0; /* Align to the left */
@@ -444,30 +444,12 @@ footer {
         overflow-y: auto; /* Enable vertical scrolling */
         position: fixed; /* Fix to viewport */
         top: 0; /* Align to top */
+        transform: translateX(-100%); /* Keep the sidebar collapsed by default */
+        transition: transform 0.3s ease;
     }
 
-    .menu-item {
-        display: block; /* Make each menu item a block-level element */
-        text-align: center; /* Center the text */
-        margin: 0px 0; /* Adjust padding to reduce height */
-        border: none; /* Remove border on hover */
-        background-color: inherit; /* Keep background color consistent */
-        justify-content: center; /* Center the menu items */
-    }
-
-
-    
-    .menu-item:hover {
-        border: none; /* Remove border on hover */
-        background-color: inherit; /* Remove background color change on hover */
-    }
-    
-    .menu-divider {
-        margin: 0.5rem 0;
-        border-bottom: 1px solid #eaeaea; /* Add a border below each divider */
-        padding: 0.25rem 0;
-        font-size: 0.875rem;
-        color: #888;
+    .sidebar.open {
+        transform: translateX(0); /* Show sidebar when open */
     }
 
     .menu-toggle {
@@ -489,26 +471,47 @@ footer {
         border-top: 1px solid #eaeaea; 
     }
 
-    .menu-toggle img {
-        width: 40px; /* Adjust image size as needed */
-        height: 40px;
+    .content {
+        margin-left: 0;
+        width: 100%;
+        padding: 16px;
     }
 
-    .menu-toggle:focus {
-        outline: none; /* Remove focus outline */
+    .menu-item {
+        display: block; /* Make each menu item a block-level element */
+        text-align: center; /* Center the text */
+        margin: 0px 0; /* Adjust padding to reduce height */
+        border: none; /* Remove border on hover */
+        background-color: inherit; /* Keep background color consistent */
+        justify-content: center; /* Center the menu items */
     }
 
-    .menu-icon {
+    .menu-item:hover {
+        border: none; /* Remove border on hover */
+        background-color: inherit; /* Remove background color change on hover */
+    }
+}
 
-        margin-right: 10px;
-       
+/* Remove the old 480px media query for sidebar styles since we've moved them to 768px */
+@media screen and (max-width: 480px) {
+    /* ... existing code ... */
+    /* Remove all sidebar-related styles from here since they're now in the 768px query */
+}
+
+/* Update the min-width queries to match our new breakpoint */
+@media screen and (min-width: 769px) {
+    .sidebar {
+        transform: translate(0);
     }
 
-    .logo-img {
-        width: 50px;
-        height: 50px;
-        margin-bottom: -30px;
+    .menu-toggle {
+        display: none; /* Hide the menu toggle button */
     }
+
+    .content {
+        margin-left: 250px; /* Width of regular sidebar */
+        padding: 40px;
+    }    
 }
 
 /* Books page styles */
@@ -1134,6 +1137,65 @@ body[data-page="4acts"] .text-column h3 {
 @media (max-width: 768px) {
     .acts-grid {
         grid-template-columns: 1fr;
+    }
+}
+
+/* Special breakpoint for 4acts page due to wider content */
+@media screen and (max-width: 1200px) {
+    body[data-page="4acts"] .sidebar {
+        width: 100%;
+        left: 0;
+        text-align: center;
+        padding-top: 1rem;
+        height: 100vh;
+        overflow-y: auto;
+        position: fixed;
+        top: 0;
+        transform: translateX(-100%);
+        transition: transform 0.3s ease;
+    }
+
+    body[data-page="4acts"] .sidebar.open {
+        transform: translateX(0);
+    }
+
+    body[data-page="4acts"] .menu-toggle {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 60px;
+        background-color: #FAFAFA;
+        border-top: solid 1px #eaeaea;
+        padding: 0;
+        cursor: pointer;
+        z-index: 1000;
+        outline: none;
+        border: none;
+        border-top: 1px solid #eaeaea;
+    }
+
+    body[data-page="4acts"] .content {
+        margin-left: 0;
+        width: 100%;
+        padding: 16px;
+    }
+
+    body[data-page="4acts"] .menu-item {
+        display: block;
+        text-align: center;
+        margin: 0px 0;
+        border: none;
+        background-color: inherit;
+        justify-content: center;
+    }
+
+    body[data-page="4acts"] .menu-item:hover {
+        border: none;
+        background-color: inherit;
     }
 }
 
