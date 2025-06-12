@@ -1103,10 +1103,10 @@ body[data-page="4acts"] .text-column h3 {
 
 .acts-grid .act-section {
     margin: 0;
-    background: #f8f9fa;
+    background: #fff;
     padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+    border-radius:12px;
+    box-shadow: 0 4px 16px rgba(2, 73, 255, 0.1);
 }
 
 .act-section {
