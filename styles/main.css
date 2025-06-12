@@ -937,6 +937,12 @@ body[data-page="4acts"] .text-column h3 {
     line-height: 1.6;
 }
 
+/* Fade out effect for the final paragraph */
+.text-block p:last-of-type {
+    -webkit-mask-image: linear-gradient(to bottom, black 20%, transparent 100%);
+    mask-image: linear-gradient(to bottom, black 20%, transparent 100%);
+}
+
 .act-section {
     margin: 2rem 0;
     padding: 1.5rem;
