@@ -39,8 +39,9 @@ I’m interested in understanding how the world works and using that knowledge t
 
 
 - From the Netherlands 🇳🇱
-- Founder & organizer of social impact projects since 2018
+- Organizer of social impact events & projects since 2018
 - Notion evangelist since 2020
+- Writing online and creating tools for personal productivity since 2022
 - 4 years as COO at Health-tech company Formelio
 - Currently partime Innovation Architect & Strategy at [Formelio](https://formelio.nl)
 
