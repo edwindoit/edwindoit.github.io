@@ -27,7 +27,7 @@ Every month, I share an actionable rundown of what I'm working on and the great 
 
 
 ## About
-I’m interested in understanding how the world works and using that knowledge to become more effective. Right now, I’m most passionate about writing The 4 Acts, a problem-solving framework I created based on Critical Rationalism and the ideas of David Deutsch. The 4 Acts is not about solving just any problem or maximizing output. It’s about making progress toward a specific and intentional outcome. That takes more than productivity; it requires reflecting on your direction and questioning what truly matters.
+I’m interested in understanding how the world works and using that knowledge to become more effective. Right now, I’m most passionate about writing The 4 Acts, a problem-solving framework I created based on Critical Rationalism and the ideas of David Deutsch. The 4 Acts is not about solving any problem or purely maximizing output. It’s about making progress toward a specific and intentional outcome. That takes more than productivity; it requires reflecting on your direction and questioning what truly matters.
 
 
 
