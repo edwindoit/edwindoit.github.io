@@ -1,6 +1,6 @@
 # What is "Do It"?
 
-**"Do It"** is a happy coincidence. It sounds like how my last name, *De Wit*, is often pronounced in English. But beyond that, these two words capture the essence of a philosophy I've put together over time. It's a way of thinking I try to follow in how I live, work, and create.  This essay explains why, by unpacking the three core meanings of Do It.
+**"Do It"** is a happy coincidence. Phonetically, it sounds like how my last name, *De Wit*, is often pronounced in English. But beyond that, these two words capture the essence of a philosophy I've put together over time. It's a way of thinking I try to follow in how I live, work, and create.  This essay explains why, by unpacking the three core meanings of Do It.
 
 ## **1. *Do it* — Choosing to Act (Agency through Existentialism)**
 
@@ -86,6 +86,6 @@ You see clearly and understand what matters, but you're not acting on it. You mi
 - **Only Direction?** You overthink and hesitate.
 - **Only Awareness?** You drift, detached from action or change.
 
-True effectiveness—both in how you live and what you contribute—comes from holding all three together. *Agency* gets you moving. *Direction* ensures it matters. *Awareness* makes it sustainable and ego-free.
+True effectiveness comes from all three together. *Agency* gets you moving. *Direction* ensures it matters. *Awareness* makes it sustainable and ego-free.
 
 That's the power of *Do It* in full. 

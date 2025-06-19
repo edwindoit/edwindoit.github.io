@@ -445,13 +445,14 @@ footer {
         width: 100%; /* Full width */
         left: 0; /* Align to the left */
         text-align: center; /* Center the items */
-        padding-top: 1rem;
+        padding: 1rem 1rem 80px 1rem; /* Add bottom padding to account for menu toggle button */
         height: 100vh; /* Full viewport height */
         overflow-y: auto; /* Enable vertical scrolling */
         position: fixed; /* Fix to viewport */
         top: 0; /* Align to top */
         transform: translateX(-100%); /* Keep the sidebar collapsed by default */
         transition: transform 0.3s ease;
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
     }
 
     .sidebar.open {
@@ -486,15 +487,27 @@ footer {
     .menu-item {
         display: block; /* Make each menu item a block-level element */
         text-align: center; /* Center the text */
-        margin: 0px 0; /* Adjust padding to reduce height */
+        margin: 8px 0; /* Add some vertical spacing between menu items */
         border: none; /* Remove border on hover */
         background-color: inherit; /* Keep background color consistent */
         justify-content: center; /* Center the menu items */
+        padding: 12px 8px; /* Add some padding for better touch targets */
     }
 
     .menu-item:hover {
         border: none; /* Remove border on hover */
         background-color: inherit; /* Remove background color change on hover */
+    }
+
+    .menu-divider {
+        margin: 1.5rem 0 1rem 0; /* Increase spacing around dividers */
+        padding: 0.5rem 0;
+        font-size: 0.875rem;
+        color: #888;
+    }
+
+    .logo {
+        margin-bottom: 1.5rem; /* Add some space after the logo */
     }
 }
 
@@ -1152,13 +1165,14 @@ body[data-page="4acts"] .text-column h3 {
         width: 100%;
         left: 0;
         text-align: center;
-        padding-top: 1rem;
+        padding: 1rem 1rem 80px 1rem; /* Add bottom padding to account for menu toggle button */
         height: 100vh;
         overflow-y: auto;
         position: fixed;
         top: 0;
         transform: translateX(-100%);
         transition: transform 0.3s ease;
+        -webkit-overflow-scrolling: touch; /* Smooth scrolling on iOS */
     }
 
     body[data-page="4acts"] .sidebar.open {
@@ -1193,15 +1207,27 @@ body[data-page="4acts"] .text-column h3 {
     body[data-page="4acts"] .menu-item {
         display: block;
         text-align: center;
-        margin: 0px 0;
+        margin: 8px 0; /* Add some vertical spacing between menu items */
         border: none;
         background-color: inherit;
         justify-content: center;
+        padding: 12px 8px; /* Add some padding for better touch targets */
     }
 
     body[data-page="4acts"] .menu-item:hover {
         border: none;
         background-color: inherit;
+    }
+
+    body[data-page="4acts"] .menu-divider {
+        margin: 1.5rem 0 1rem 0; /* Increase spacing around dividers */
+        padding: 0.5rem 0;
+        font-size: 0.875rem;
+        color: #888;
+    }
+
+    body[data-page="4acts"] .logo {
+        margin-bottom: 1.5rem; /* Add some space after the logo */
     }
 }
 
