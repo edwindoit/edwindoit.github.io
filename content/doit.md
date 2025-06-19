@@ -28,7 +28,7 @@ We've seen open-ended progress in health, living standards, knowledge, and more.
 
 So what does this mean for our question of *What to do*?  It means we're freeer than ever to pursue any problems we care about. That might be raising a family, building a business, writing a novel, exploring a field, or discovering a new frontier. Any creative effort toward a goal you find meaningful *is* progress. We are built to solve problems and since the Enlightenment, the brakes are off. Every solved problem becomes a stepping stone on humanity's infinite journey ahead.
 
-In this context, the phrase "Do It" emphasizes the "*It"—* namely*,* the problem *you* choose to work on. 
+In this context, the phrase "Do It" emphasizes the "*It"* — namely, the problem *you* choose to work on. 
 
 ## **3. *Do* it — Act Without Attachment (Awareness through Non-dualism)**
 
