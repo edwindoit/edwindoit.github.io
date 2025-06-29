@@ -9,7 +9,7 @@
 
 **Currently, I am...** 
 
-- Creating a weekly [YouTube series](https://www.youtube.com/@edwindoit) on: How to Practically Apply the Ideas of David Deutsch  
+- Creating a weekly [YouTube series/Podcast](../podcast) on: How to Practically Apply the Ideas of David Deutsch  
 - Writing [The 4 Acts Book](../4acts) (first review cycle)
 - Taking [consulting work](../services)  in operations & tooling (former COO), health-tech solution architecture, Notion workspace design, and other things that spark my curiosity.
 
@@ -25,18 +25,11 @@ Every month, I share an actionable rundown of what I'm working on and the great 
 
 
 
-
 ## About
 I’m interested in understanding how the world works and using that knowledge to become more effective. Right now, I’m most passionate about writing The 4 Acts, a problem-solving framework I created based on Critical Rationalism and the ideas of David Deutsch. The 4 Acts is not about solving any problem or purely maximizing output. It’s about making progress toward a specific and intentional outcome. That takes more than productivity; it requires reflecting on your direction and questioning what truly matters.
 
 
-
-
-
-
 ### My background
-
-
 
 - From the Netherlands 🇳🇱
 - Organizer of social impact events & projects since 2018
