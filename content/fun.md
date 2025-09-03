@@ -20,7 +20,8 @@
 
 ## **Intro**
 
-The Fun Criterion (FC) is a concept introduced by David Deutsch and discussed by him across various podcasts. It holds that the absence of Fun is a warning sign. If we aren't having Fun while doing an activity, it suggests something is going wrong. In that case, we  should consider whether to adjust our approach or abandon the activity altogether.
+The Fun Criterion (FC) is a concept introduced by David Deutsch and discussed by him across various podcasts[1]. It holds that the absence of Fun is a warning sign. If we aren't having Fun while doing an activity, it suggests something is going wrong. In that case, we  should consider whether to adjust our approach or abandon the activity altogether.
+
 The FC is a powerful tool for understanding the mind and avoiding coercion. But it is also prone to misinterpretation, which can carry risks. So far, most accounts of the FC have left its definitions and boundaries somewhat vague and open, which can make those risks harder to address. Out of a strong personal interest in understanding the FC—and having encountered many of these ambiguities myself—I have gathered the various perspectives and attempted to define its boundaries more clearly in this essay. I also explore what the FC is not, and how it can be supplemented with other moral heuristics.
 
 ## **What is Fun?**
